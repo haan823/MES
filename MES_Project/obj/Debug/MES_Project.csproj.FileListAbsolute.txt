@@ -1,0 +1,13 @@
+D:\MES_project\MES_Project\bin\Debug\MES_Project.exe.config
+D:\MES_project\MES_Project\bin\Debug\MES_Project.exe
+D:\MES_project\MES_Project\bin\Debug\MES_Project.pdb
+D:\MES_project\MES_Project\bin\Debug\MetroFramework.dll
+D:\MES_project\MES_Project\bin\Debug\MetroFramework.Fonts.dll
+D:\MES_project\MES_Project\obj\Debug\MES_Project.csprojAssemblyReference.cache
+D:\MES_project\MES_Project\obj\Debug\MES_Project.Form1.resources
+D:\MES_project\MES_Project\obj\Debug\MES_Project.Properties.Resources.resources
+D:\MES_project\MES_Project\obj\Debug\MES_Project.csproj.GenerateResource.cache
+D:\MES_project\MES_Project\obj\Debug\MES_Project.csproj.CoreCompileInputs.cache
+D:\MES_project\MES_Project\obj\Debug\MES_Project.csproj.CopyComplete
+D:\MES_project\MES_Project\obj\Debug\MES_Project.exe
+D:\MES_project\MES_Project\obj\Debug\MES_Project.pdb
