@@ -33,5 +33,16 @@ namespace MES_Project.Properties {
                 return ((string)(this["MESConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-M3V96N7\\SQLEXPRESS;Initial Catalog=MES2;Integrated Security=T" +
+            "rue")]
+        public string MES2ConnectionString {
+            get {
+                return ((string)(this["MES2ConnectionString"]));
+            }
+        }
     }
 }

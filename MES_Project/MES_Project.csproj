@@ -62,10 +62,40 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MES2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MES2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MES2DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MES2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MES2DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MES2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MES2DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MES2DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MES2DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MES2DataSet4.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MESDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MESDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MESDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MESDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,6 +112,61 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="MES2DataSet.xsc">
+      <DependentUpon>MES2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MES2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MES2DataSet.xss">
+      <DependentUpon>MES2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet1.xsc">
+      <DependentUpon>MES2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MES2DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MES2DataSet1.xss">
+      <DependentUpon>MES2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet2.xsc">
+      <DependentUpon>MES2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MES2DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MES2DataSet2.xss">
+      <DependentUpon>MES2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet3.xsc">
+      <DependentUpon>MES2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MES2DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MES2DataSet3.xss">
+      <DependentUpon>MES2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet4.xsc">
+      <DependentUpon>MES2DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MES2DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MES2DataSet4.xss">
+      <DependentUpon>MES2DataSet4.xsd</DependentUpon>
+    </None>
     <None Include="MESDataSet.xsc">
       <DependentUpon>MESDataSet.xsd</DependentUpon>
     </None>
@@ -92,6 +177,17 @@
     </None>
     <None Include="MESDataSet.xss">
       <DependentUpon>MESDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MESDataSet1.xsc">
+      <DependentUpon>MESDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MESDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MESDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MESDataSet1.xss">
+      <DependentUpon>MESDataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
