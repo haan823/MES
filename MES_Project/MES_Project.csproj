@@ -87,6 +87,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MES2DataSet4.xsd</DependentUpon>
     </Compile>
+    <Compile Include="MES2DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MES2DataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MESDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -166,6 +171,17 @@
     </None>
     <None Include="MES2DataSet4.xss">
       <DependentUpon>MES2DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet5.xsc">
+      <DependentUpon>MES2DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MES2DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MES2DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MES2DataSet5.xss">
+      <DependentUpon>MES2DataSet5.xsd</DependentUpon>
     </None>
     <None Include="MESDataSet.xsc">
       <DependentUpon>MESDataSet.xsd</DependentUpon>

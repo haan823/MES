@@ -24,7 +24,7 @@ namespace MES_Project
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: 이 코드는 데이터를 'mES2DataSet.생산완료제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.생산완료제품TableAdapter.Fill(this.mES2DataSet4.생산완료제품);
+            this.생산완료제품TableAdapter.Fill(this.mES2DataSet5.생산완료제품);
             dataGridView1.Show();
             dataGridView2.Hide();
             dataGridView3.Hide();
@@ -40,7 +40,7 @@ namespace MES_Project
         private void metroTile1_Click_1(object sender, EventArgs e)
         {
             // TODO: 이 코드는 데이터를 'mES2DataSet.생산완료제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.생산완료제품TableAdapter.Fill(this.mES2DataSet4.생산완료제품);
+            this.생산완료제품TableAdapter.Fill(this.mES2DataSet5.생산완료제품);
             dataGridView1.Show();
             dataGridView2.Hide();
             dataGridView3.Hide();
@@ -56,7 +56,7 @@ namespace MES_Project
         private void metroTile2_Click_1(object sender, EventArgs e)
         {
             // TODO: 이 코드는 데이터를 'mES2DataSet.검사대상제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.검사대상제품TableAdapter.Fill(this.mES2DataSet4.검사대상제품);
+            this.검사대상제품TableAdapter.Fill(this.mES2DataSet5.검사대상제품);
             dataGridView1.Hide();
             dataGridView2.Show();
             dataGridView3.Hide();
@@ -72,7 +72,7 @@ namespace MES_Project
         private void metroTile3_Click(object sender, EventArgs e)
         {
             // TODO: 이 코드는 데이터를 'mES2DataSet.출하대기제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.출하대기제품TableAdapter.Fill(this.mES2DataSet4.출하대기제품);
+            this.출하대기제품TableAdapter.Fill(this.mES2DataSet5.출하대기제품);
             dataGridView1.Hide();
             dataGridView2.Hide();
             dataGridView3.Show();
@@ -88,9 +88,9 @@ namespace MES_Project
         private void metroTile4_Click_1(object sender, EventArgs e)
         {
             // TODO: 이 코드는 데이터를 'mES2DataSet.출하후불량판정제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.출하후불량판정제품TableAdapter.Fill(this.mES2DataSet4.출하후불량판정제품);
+            this.출하후불량판정제품TableAdapter.Fill(this.mES2DataSet5.출하후불량판정제품);
             // TODO: 이 코드는 데이터를 'mES2DataSet.출하전불량판정제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.출하전불량판정제품TableAdapter.Fill(this.mES2DataSet4.출하전불량판정제품);
+            this.출하전불량판정제품TableAdapter.Fill(this.mES2DataSet5.출하전불량판정제품);
             dataGridView1.Hide();
             dataGridView2.Hide();
             dataGridView3.Hide();
@@ -106,7 +106,7 @@ namespace MES_Project
         private void metroTile5_Click(object sender, EventArgs e)
         {
             // TODO: 이 코드는 데이터를 'mES2DataSet.출하등록제품' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.출하등록제품TableAdapter.Fill(this.mES2DataSet4.출하등록제품);
+            this.출하등록제품TableAdapter.Fill(this.mES2DataSet5.출하등록제품);
             dataGridView1.Hide();
             dataGridView2.Hide();
             dataGridView3.Hide();
@@ -151,7 +151,7 @@ namespace MES_Project
                     //this.mES2DataSet.생산완료제품.Rows[crn].Delete();
                     //this.mES2DataSet.생산완료제품.AcceptChanges();
                     BindingSource bs = (BindingSource)dataGridView1.DataSource;
-                    MES2DataSet4 ds = bs.DataSource as MES2DataSet4;
+                    MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
                     
                     //this.생산완료제품TableAdapter.Update(this.mES2DataSet.생산완료제품);
                     this.생산완료제품TableAdapter.Update(ds.생산완료제품);
@@ -169,19 +169,10 @@ namespace MES_Project
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             crn = e.RowIndex;
-            if(Convert.ToBoolean(dataGridView2.Rows[e.RowIndex].Cells[5].Value) == true)
-            {
-                MessageBox.Show("이미 검사한 제품입니다.");
-                불량판정등록.Hide();
-            }
-            else
-            {
-                crn = e.RowIndex;
-                불량판정등록.Show();
-                mtb2_1.Text = dataGridView2.Rows[e.RowIndex].Cells[1].Value.ToString();
-                mtb2_2.Text = dataGridView2.Rows[e.RowIndex].Cells[2].Value.ToString();
-                mtb2_4.Text = DateTime.Now.ToString("yyyy-MM-dd");
-            }
+            불량판정등록.Show();
+            mtb2_1.Text = dataGridView2.Rows[e.RowIndex].Cells[1].Value.ToString();
+            mtb2_2.Text = dataGridView2.Rows[e.RowIndex].Cells[2].Value.ToString();
+            mtb2_4.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
 
         private void btn2_1_Click(object sender, EventArgs e)
@@ -209,10 +200,9 @@ namespace MES_Project
                 else
                 {
                     Debug.WriteLine(crn);
-                    dataGridView2.Rows[crn].Cells[5].Value = true;
 
                     BindingSource bs = (BindingSource)dataGridView2.DataSource;
-                    MES2DataSet4 ds = bs.DataSource as MES2DataSet4;
+                    MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
 
 
                     this.검사대상제품TableAdapter.Update(ds.검사대상제품);
@@ -241,13 +231,8 @@ namespace MES_Project
                 }
                 else
                 {
-                    Debug.WriteLine(crn);
-                    dataGridView2.Rows[crn].Cells[5].Value = true;
+                    this.출하대기제품TableAdapter.Insert(pid, pname, ppdate, null, null, pmanager);
 
-                    Debug.WriteLine("여기까지");
-                    this.출하대기제품TableAdapter.Insert(pid, pname, ppdate, null, null, null , pmanager);
-
-                    Debug.WriteLine("업데이트 완료");
                     MessageBox.Show("출하 대기 등록 처리되었습니다.");
                 }
             }
@@ -259,11 +244,20 @@ namespace MES_Project
 
         private void dataGridView3_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            crn = e.RowIndex;
-            출하지시등록.Show();
-            mtb3_1.Text = dataGridView3.Rows[e.RowIndex].Cells[1].Value.ToString();
-            mtb3_2.Text = dataGridView3.Rows[e.RowIndex].Cells[2].Value.ToString();
-            mtb3_3.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            if(dataGridView3.Rows[e.RowIndex].Cells[4].Value.ToString().Length != 0)
+            {
+                Debug.WriteLine(dataGridView3.Rows[e.RowIndex].Cells[4].Value.ToString());
+                MessageBox.Show("이미 출하된 제품입니다.");
+                출하지시등록.Hide();
+            }
+            else
+            {
+                crn = e.RowIndex;
+                출하지시등록.Show();
+                mtb3_1.Text = dataGridView3.Rows[e.RowIndex].Cells[1].Value.ToString();
+                mtb3_2.Text = dataGridView3.Rows[e.RowIndex].Cells[2].Value.ToString();
+                mtb3_3.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            }
         }
 
         private void btn3_1_Click(object sender, EventArgs e)
@@ -274,12 +268,26 @@ namespace MES_Project
                 string pname = mtb3_2.Text;
                 string pdate = mtb3_3.Text;
                 string pmanager = mtb3_4.Text;
+                string pcustomer = mtb3_5.Text;
                 if(pmanager.Length == 0)
                 {
                     MessageBox.Show("담당자를 입력해주세요.");
                 }
+                else if(pcustomer.Length == 0)
+                {
+                    MessageBox.Show("납품처를 입력해주세요.");
+                }
                 else
                 {
+                    dataGridView3.Rows[crn].Cells[4].Value = pdate;
+                    dataGridView3.Rows[crn].Cells[5].Value = pcustomer;
+                    this.ValidateChildren();
+                    this.SelectNextControl(this.ActiveControl, true, true, false, true);
+                    this.SelectNextControl(this.ActiveControl, false, true, false, true);
+                    BindingSource bs = (BindingSource)dataGridView3.DataSource;
+                    MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
+
+                    this.출하대기제품TableAdapter.Update(ds.출하대기제품);
                     this.출하등록제품TableAdapter.Insert(pid, pname, pdate, pmanager, null);
                     MessageBox.Show("출하 등록 성공하였습니다.");
                 }
@@ -293,11 +301,19 @@ namespace MES_Project
 
         private void dataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            crn = e.RowIndex;
-            출하후불량등록.Show();
-            mtb4_1.Text = dataGridView5.Rows[e.RowIndex].Cells[1].Value.ToString();
-            mtb4_2.Text = dataGridView5.Rows[e.RowIndex].Cells[2].Value.ToString();
-            mtb4_3.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            if (dataGridView5.Rows[e.RowIndex].Cells[5].Value.ToString().Length != 0)
+            {
+                MessageBox.Show("이미 불량 등록된 제품입니다.");
+                출하후불량등록.Hide();
+            }
+            else
+            {
+                crn = e.RowIndex;
+                출하후불량등록.Show();
+                mtb4_1.Text = dataGridView5.Rows[e.RowIndex].Cells[1].Value.ToString();
+                mtb4_2.Text = dataGridView5.Rows[e.RowIndex].Cells[2].Value.ToString();
+                mtb4_3.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            }
         }
 
         private void btn4_1_Click(object sender, EventArgs e)
@@ -320,9 +336,24 @@ namespace MES_Project
                 else
                 {
                     this.출하후불량판정제품TableAdapter.Insert(preason, pwhere);
-                    MessageBox.Show("출하 후 불량 등록 성공하였습니다.");
-                }   
+                    metroTile4.PerformClick();
+                    metroTile5.PerformClick();
+                    int i = this.mES2DataSet5.출하후불량판정제품.Rows.Count - 1;
+                    
+                    
+                    int num = (int)dataGridView6.Rows[i].Cells[0].Value;
+                    dataGridView5.Rows[crn].Cells[5].Value = num;
+                    dataGridView5.EndEdit();
+                    dataGridView5.Rows[crn].Cells[5].Value = num;
+                    dataGridView5.EndEdit();
 
+                    BindingSource bs = (BindingSource)dataGridView5.DataSource;
+                    MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
+
+                    this.출하등록제품TableAdapter.Update(ds.출하등록제품);
+                    
+                    MessageBox.Show("출하 후 불량 등록 성공하였습니다.");
+                }
             }
             catch
             {

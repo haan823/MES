@@ -108,51 +108,54 @@
             this.metroTile5 = new MetroFramework.Controls.MetroTile();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.mES2DataSet4 = new MES_Project.MES2DataSet4();
+            this.mES2DataSet5 = new MES_Project.MES2DataSet5();
             this.생산완료제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.생산완료제품TableAdapter = new MES_Project.MES2DataSet4TableAdapters.생산완료제품TableAdapter();
+            this.생산완료제품TableAdapter = new MES_Project.MES2DataSet5TableAdapters.생산완료제품TableAdapter();
+            this.검사대상제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.검사대상제품TableAdapter = new MES_Project.MES2DataSet5TableAdapters.검사대상제품TableAdapter();
+            this.출하대기제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.출하대기제품TableAdapter = new MES_Project.MES2DataSet5TableAdapters.출하대기제품TableAdapter();
+            this.출하전불량판정제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.출하전불량판정제품TableAdapter = new MES_Project.MES2DataSet5TableAdapters.출하전불량판정제품TableAdapter();
+            this.출하등록제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.출하등록제품TableAdapter = new MES_Project.MES2DataSet5TableAdapters.출하등록제품TableAdapter();
+            this.출하후불량판정제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.출하후불량판정제품TableAdapter = new MES_Project.MES2DataSet5TableAdapters.출하후불량판정제품TableAdapter();
+            this.mtb3_5 = new MetroFramework.Controls.MetroTextBox();
+            this.납품처 = new MetroFramework.Controls.MetroLabel();
             this.제품코드DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품명DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.수주일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제조일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.납기일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.등록자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.검사대상제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.검사대상제품TableAdapter = new MES_Project.MES2DataSet4TableAdapters.검사대상제품TableAdapter();
             this.검사번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품코드DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품명DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.검사일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.검사요청담당자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.출하대기제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.출하대기제품TableAdapter = new MES_Project.MES2DataSet4TableAdapters.출하대기제품TableAdapter();
             this.출하지시번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품코드DataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품명DataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.출하지시일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.출하일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.납기일자DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.납품처DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.담당자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.출하등록제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.출하등록제품TableAdapter = new MES_Project.MES2DataSet4TableAdapters.출하등록제품TableAdapter();
-            this.출하등록번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.불량번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품코드DataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품명DataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.불량판정담당자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.등록일자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.출하등록담당자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.불량번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.출하등록제품BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.불량유형DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.불량사유DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.출하등록번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품코드DataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.제품명DataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.등록일자DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.출하등록담당자DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.불량번호DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.출하전불량판정제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.출하전불량판정제품TableAdapter = new MES_Project.MES2DataSet4TableAdapters.출하전불량판정제품TableAdapter();
-            this.출하후불량판정제품BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.출하후불량판정제품TableAdapter = new MES_Project.MES2DataSet4TableAdapters.출하후불량판정제품TableAdapter();
             this.불량번호DataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.불량사유DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.불량사유DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.불량발생처DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -164,13 +167,12 @@
             this.출하후불량등록.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mES2DataSet4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mES2DataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.생산완료제품BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.검사대상제품BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.출하대기제품BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.출하등록제품BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.출하등록제품BindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.출하전불량판정제품BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.출하등록제품BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.출하후불량판정제품BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -322,7 +324,6 @@
             this.제품명DataGridViewTextBoxColumn2,
             this.출하지시일자DataGridViewTextBoxColumn,
             this.출하일자DataGridViewTextBoxColumn,
-            this.납기일자DataGridViewTextBoxColumn1,
             this.납품처DataGridViewTextBoxColumn,
             this.담당자DataGridViewTextBoxColumn});
             this.dataGridView3.DataSource = this.출하대기제품BindingSource;
@@ -363,10 +364,13 @@
             this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.제품코드DataGridViewTextBoxColumn4,
-            this.제품명DataGridViewTextBoxColumn4,
-            this.등록일자DataGridViewTextBoxColumn1,
-            this.불량번호DataGridViewTextBoxColumn1});
+            this.불량번호DataGridViewTextBoxColumn,
+            this.제품코드DataGridViewTextBoxColumn3,
+            this.제품명DataGridViewTextBoxColumn3,
+            this.불량판정담당자DataGridViewTextBoxColumn,
+            this.등록일자DataGridViewTextBoxColumn,
+            this.불량유형DataGridViewTextBoxColumn,
+            this.불량사유DataGridViewTextBoxColumn});
             this.dataGridView4.DataSource = this.출하전불량판정제품BindingSource;
             dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
@@ -657,6 +661,8 @@
             // 
             // 출하지시등록
             // 
+            this.출하지시등록.Controls.Add(this.mtb3_5);
+            this.출하지시등록.Controls.Add(this.납품처);
             this.출하지시등록.Controls.Add(this.mtb3_4);
             this.출하지시등록.Controls.Add(this.metroLabel14);
             this.출하지시등록.Controls.Add(this.mtb3_3);
@@ -666,7 +672,7 @@
             this.출하지시등록.Controls.Add(this.mtb3_1);
             this.출하지시등록.Controls.Add(this.metroLabel17);
             this.출하지시등록.Controls.Add(this.metroLabel18);
-            this.출하지시등록.Location = new System.Drawing.Point(23, 558);
+            this.출하지시등록.Location = new System.Drawing.Point(23, 572);
             this.출하지시등록.Name = "출하지시등록";
             this.출하지시등록.Size = new System.Drawing.Size(1447, 229);
             this.출하지시등록.TabIndex = 19;
@@ -884,11 +890,11 @@
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.출하등록번호DataGridViewTextBoxColumn,
-            this.제품코드DataGridViewTextBoxColumn3,
-            this.제품명DataGridViewTextBoxColumn3,
-            this.등록일자DataGridViewTextBoxColumn,
+            this.제품코드DataGridViewTextBoxColumn4,
+            this.제품명DataGridViewTextBoxColumn4,
+            this.등록일자DataGridViewTextBoxColumn1,
             this.출하등록담당자DataGridViewTextBoxColumn,
-            this.불량번호DataGridViewTextBoxColumn});
+            this.불량번호DataGridViewTextBoxColumn1});
             this.dataGridView5.DataSource = this.출하등록제품BindingSource;
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window;
@@ -928,7 +934,7 @@
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.불량번호DataGridViewTextBoxColumn2,
-            this.불량사유DataGridViewTextBoxColumn,
+            this.불량사유DataGridViewTextBoxColumn1,
             this.불량발생처DataGridViewTextBoxColumn});
             this.dataGridView6.DataSource = this.출하후불량판정제품BindingSource;
             dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -954,330 +960,391 @@
             this.dataGridView6.Size = new System.Drawing.Size(432, 403);
             this.dataGridView6.TabIndex = 17;
             // 
-            // mES2DataSet4
+            // mES2DataSet5
             // 
-            this.mES2DataSet4.DataSetName = "MES2DataSet4";
-            this.mES2DataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.mES2DataSet5.DataSetName = "MES2DataSet5";
+            this.mES2DataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // 생산완료제품BindingSource
             // 
             this.생산완료제품BindingSource.DataMember = "생산완료제품";
-            this.생산완료제품BindingSource.DataSource = this.mES2DataSet4;
+            this.생산완료제품BindingSource.DataSource = this.mES2DataSet5;
             // 
             // 생산완료제품TableAdapter
             // 
             this.생산완료제품TableAdapter.ClearBeforeFill = true;
             // 
-            // 제품코드DataGridViewTextBoxColumn
-            // 
-            this.제품코드DataGridViewTextBoxColumn.DataPropertyName = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn.HeaderText = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.제품코드DataGridViewTextBoxColumn.Name = "제품코드DataGridViewTextBoxColumn";
-            this.제품코드DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 제품명DataGridViewTextBoxColumn
-            // 
-            this.제품명DataGridViewTextBoxColumn.DataPropertyName = "제품명";
-            this.제품명DataGridViewTextBoxColumn.HeaderText = "제품명";
-            this.제품명DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.제품명DataGridViewTextBoxColumn.Name = "제품명DataGridViewTextBoxColumn";
-            this.제품명DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 수주일자DataGridViewTextBoxColumn
-            // 
-            this.수주일자DataGridViewTextBoxColumn.DataPropertyName = "수주일자";
-            this.수주일자DataGridViewTextBoxColumn.HeaderText = "수주일자";
-            this.수주일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.수주일자DataGridViewTextBoxColumn.Name = "수주일자DataGridViewTextBoxColumn";
-            this.수주일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 제조일자DataGridViewTextBoxColumn
-            // 
-            this.제조일자DataGridViewTextBoxColumn.DataPropertyName = "제조일자";
-            this.제조일자DataGridViewTextBoxColumn.HeaderText = "제조일자";
-            this.제조일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.제조일자DataGridViewTextBoxColumn.Name = "제조일자DataGridViewTextBoxColumn";
-            this.제조일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 납기일자DataGridViewTextBoxColumn
-            // 
-            this.납기일자DataGridViewTextBoxColumn.DataPropertyName = "납기일자";
-            this.납기일자DataGridViewTextBoxColumn.HeaderText = "납기일자";
-            this.납기일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.납기일자DataGridViewTextBoxColumn.Name = "납기일자DataGridViewTextBoxColumn";
-            this.납기일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 등록자DataGridViewTextBoxColumn
-            // 
-            this.등록자DataGridViewTextBoxColumn.DataPropertyName = "등록자";
-            this.등록자DataGridViewTextBoxColumn.HeaderText = "등록자";
-            this.등록자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.등록자DataGridViewTextBoxColumn.Name = "등록자DataGridViewTextBoxColumn";
-            this.등록자DataGridViewTextBoxColumn.Width = 125;
-            // 
             // 검사대상제품BindingSource
             // 
             this.검사대상제품BindingSource.DataMember = "검사대상제품";
-            this.검사대상제품BindingSource.DataSource = this.mES2DataSet4;
+            this.검사대상제품BindingSource.DataSource = this.mES2DataSet5;
             // 
             // 검사대상제품TableAdapter
             // 
             this.검사대상제품TableAdapter.ClearBeforeFill = true;
             // 
-            // 검사번호DataGridViewTextBoxColumn
-            // 
-            this.검사번호DataGridViewTextBoxColumn.DataPropertyName = "검사번호";
-            this.검사번호DataGridViewTextBoxColumn.HeaderText = "검사번호";
-            this.검사번호DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.검사번호DataGridViewTextBoxColumn.Name = "검사번호DataGridViewTextBoxColumn";
-            this.검사번호DataGridViewTextBoxColumn.ReadOnly = true;
-            this.검사번호DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 제품코드DataGridViewTextBoxColumn1
-            // 
-            this.제품코드DataGridViewTextBoxColumn1.DataPropertyName = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn1.HeaderText = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.제품코드DataGridViewTextBoxColumn1.Name = "제품코드DataGridViewTextBoxColumn1";
-            this.제품코드DataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // 제품명DataGridViewTextBoxColumn1
-            // 
-            this.제품명DataGridViewTextBoxColumn1.DataPropertyName = "제품명";
-            this.제품명DataGridViewTextBoxColumn1.HeaderText = "제품명";
-            this.제품명DataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.제품명DataGridViewTextBoxColumn1.Name = "제품명DataGridViewTextBoxColumn1";
-            this.제품명DataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // 검사일자DataGridViewTextBoxColumn
-            // 
-            this.검사일자DataGridViewTextBoxColumn.DataPropertyName = "검사일자";
-            this.검사일자DataGridViewTextBoxColumn.HeaderText = "검사일자";
-            this.검사일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.검사일자DataGridViewTextBoxColumn.Name = "검사일자DataGridViewTextBoxColumn";
-            this.검사일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 검사요청담당자DataGridViewTextBoxColumn
-            // 
-            this.검사요청담당자DataGridViewTextBoxColumn.DataPropertyName = "검사요청담당자";
-            this.검사요청담당자DataGridViewTextBoxColumn.HeaderText = "검사요청담당자";
-            this.검사요청담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.검사요청담당자DataGridViewTextBoxColumn.Name = "검사요청담당자DataGridViewTextBoxColumn";
-            this.검사요청담당자DataGridViewTextBoxColumn.Width = 125;
-            // 
             // 출하대기제품BindingSource
             // 
             this.출하대기제품BindingSource.DataMember = "출하대기제품";
-            this.출하대기제품BindingSource.DataSource = this.mES2DataSet4;
+            this.출하대기제품BindingSource.DataSource = this.mES2DataSet5;
             // 
             // 출하대기제품TableAdapter
             // 
             this.출하대기제품TableAdapter.ClearBeforeFill = true;
             // 
-            // 출하지시번호DataGridViewTextBoxColumn
-            // 
-            this.출하지시번호DataGridViewTextBoxColumn.DataPropertyName = "출하지시번호";
-            this.출하지시번호DataGridViewTextBoxColumn.HeaderText = "출하지시번호";
-            this.출하지시번호DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.출하지시번호DataGridViewTextBoxColumn.Name = "출하지시번호DataGridViewTextBoxColumn";
-            this.출하지시번호DataGridViewTextBoxColumn.ReadOnly = true;
-            this.출하지시번호DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 제품코드DataGridViewTextBoxColumn2
-            // 
-            this.제품코드DataGridViewTextBoxColumn2.DataPropertyName = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn2.HeaderText = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.제품코드DataGridViewTextBoxColumn2.Name = "제품코드DataGridViewTextBoxColumn2";
-            this.제품코드DataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // 제품명DataGridViewTextBoxColumn2
-            // 
-            this.제품명DataGridViewTextBoxColumn2.DataPropertyName = "제품명";
-            this.제품명DataGridViewTextBoxColumn2.HeaderText = "제품명";
-            this.제품명DataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.제품명DataGridViewTextBoxColumn2.Name = "제품명DataGridViewTextBoxColumn2";
-            this.제품명DataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // 출하지시일자DataGridViewTextBoxColumn
-            // 
-            this.출하지시일자DataGridViewTextBoxColumn.DataPropertyName = "출하지시일자";
-            this.출하지시일자DataGridViewTextBoxColumn.HeaderText = "출하지시일자";
-            this.출하지시일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.출하지시일자DataGridViewTextBoxColumn.Name = "출하지시일자DataGridViewTextBoxColumn";
-            this.출하지시일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 출하일자DataGridViewTextBoxColumn
-            // 
-            this.출하일자DataGridViewTextBoxColumn.DataPropertyName = "출하일자";
-            this.출하일자DataGridViewTextBoxColumn.HeaderText = "출하일자";
-            this.출하일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.출하일자DataGridViewTextBoxColumn.Name = "출하일자DataGridViewTextBoxColumn";
-            this.출하일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 납기일자DataGridViewTextBoxColumn1
-            // 
-            this.납기일자DataGridViewTextBoxColumn1.DataPropertyName = "납기일자";
-            this.납기일자DataGridViewTextBoxColumn1.HeaderText = "납기일자";
-            this.납기일자DataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.납기일자DataGridViewTextBoxColumn1.Name = "납기일자DataGridViewTextBoxColumn1";
-            this.납기일자DataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // 납품처DataGridViewTextBoxColumn
-            // 
-            this.납품처DataGridViewTextBoxColumn.DataPropertyName = "납품처";
-            this.납품처DataGridViewTextBoxColumn.HeaderText = "납품처";
-            this.납품처DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.납품처DataGridViewTextBoxColumn.Name = "납품처DataGridViewTextBoxColumn";
-            this.납품처DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 담당자DataGridViewTextBoxColumn
-            // 
-            this.담당자DataGridViewTextBoxColumn.DataPropertyName = "담당자";
-            this.담당자DataGridViewTextBoxColumn.HeaderText = "담당자";
-            this.담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.담당자DataGridViewTextBoxColumn.Name = "담당자DataGridViewTextBoxColumn";
-            this.담당자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 출하등록제품BindingSource
-            // 
-            this.출하등록제품BindingSource.DataMember = "출하등록제품";
-            this.출하등록제품BindingSource.DataSource = this.mES2DataSet4;
-            // 
-            // 출하등록제품TableAdapter
-            // 
-            this.출하등록제품TableAdapter.ClearBeforeFill = true;
-            // 
-            // 출하등록번호DataGridViewTextBoxColumn
-            // 
-            this.출하등록번호DataGridViewTextBoxColumn.DataPropertyName = "출하등록번호";
-            this.출하등록번호DataGridViewTextBoxColumn.HeaderText = "출하등록번호";
-            this.출하등록번호DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.출하등록번호DataGridViewTextBoxColumn.Name = "출하등록번호DataGridViewTextBoxColumn";
-            this.출하등록번호DataGridViewTextBoxColumn.ReadOnly = true;
-            this.출하등록번호DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 제품코드DataGridViewTextBoxColumn3
-            // 
-            this.제품코드DataGridViewTextBoxColumn3.DataPropertyName = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn3.HeaderText = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.제품코드DataGridViewTextBoxColumn3.Name = "제품코드DataGridViewTextBoxColumn3";
-            this.제품코드DataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // 제품명DataGridViewTextBoxColumn3
-            // 
-            this.제품명DataGridViewTextBoxColumn3.DataPropertyName = "제품명";
-            this.제품명DataGridViewTextBoxColumn3.HeaderText = "제품명";
-            this.제품명DataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.제품명DataGridViewTextBoxColumn3.Name = "제품명DataGridViewTextBoxColumn3";
-            this.제품명DataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // 등록일자DataGridViewTextBoxColumn
-            // 
-            this.등록일자DataGridViewTextBoxColumn.DataPropertyName = "등록일자";
-            this.등록일자DataGridViewTextBoxColumn.HeaderText = "등록일자";
-            this.등록일자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.등록일자DataGridViewTextBoxColumn.Name = "등록일자DataGridViewTextBoxColumn";
-            this.등록일자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 출하등록담당자DataGridViewTextBoxColumn
-            // 
-            this.출하등록담당자DataGridViewTextBoxColumn.DataPropertyName = "출하등록담당자";
-            this.출하등록담당자DataGridViewTextBoxColumn.HeaderText = "출하등록담당자";
-            this.출하등록담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.출하등록담당자DataGridViewTextBoxColumn.Name = "출하등록담당자DataGridViewTextBoxColumn";
-            this.출하등록담당자DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 불량번호DataGridViewTextBoxColumn
-            // 
-            this.불량번호DataGridViewTextBoxColumn.DataPropertyName = "불량번호";
-            this.불량번호DataGridViewTextBoxColumn.HeaderText = "불량번호";
-            this.불량번호DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.불량번호DataGridViewTextBoxColumn.Name = "불량번호DataGridViewTextBoxColumn";
-            this.불량번호DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // 출하등록제품BindingSource1
-            // 
-            this.출하등록제품BindingSource1.DataMember = "출하등록제품";
-            this.출하등록제품BindingSource1.DataSource = this.mES2DataSet4;
-            // 
-            // 제품코드DataGridViewTextBoxColumn4
-            // 
-            this.제품코드DataGridViewTextBoxColumn4.DataPropertyName = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn4.HeaderText = "제품코드";
-            this.제품코드DataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.제품코드DataGridViewTextBoxColumn4.Name = "제품코드DataGridViewTextBoxColumn4";
-            this.제품코드DataGridViewTextBoxColumn4.Width = 125;
-            // 
-            // 제품명DataGridViewTextBoxColumn4
-            // 
-            this.제품명DataGridViewTextBoxColumn4.DataPropertyName = "제품명";
-            this.제품명DataGridViewTextBoxColumn4.HeaderText = "제품명";
-            this.제품명DataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.제품명DataGridViewTextBoxColumn4.Name = "제품명DataGridViewTextBoxColumn4";
-            this.제품명DataGridViewTextBoxColumn4.Width = 125;
-            // 
-            // 등록일자DataGridViewTextBoxColumn1
-            // 
-            this.등록일자DataGridViewTextBoxColumn1.DataPropertyName = "등록일자";
-            this.등록일자DataGridViewTextBoxColumn1.HeaderText = "등록일자";
-            this.등록일자DataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.등록일자DataGridViewTextBoxColumn1.Name = "등록일자DataGridViewTextBoxColumn1";
-            this.등록일자DataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // 불량번호DataGridViewTextBoxColumn1
-            // 
-            this.불량번호DataGridViewTextBoxColumn1.DataPropertyName = "불량번호";
-            this.불량번호DataGridViewTextBoxColumn1.HeaderText = "불량번호";
-            this.불량번호DataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.불량번호DataGridViewTextBoxColumn1.Name = "불량번호DataGridViewTextBoxColumn1";
-            this.불량번호DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.불량번호DataGridViewTextBoxColumn1.Width = 125;
-            // 
             // 출하전불량판정제품BindingSource
             // 
             this.출하전불량판정제품BindingSource.DataMember = "출하전불량판정제품";
-            this.출하전불량판정제품BindingSource.DataSource = this.mES2DataSet4;
+            this.출하전불량판정제품BindingSource.DataSource = this.mES2DataSet5;
             // 
             // 출하전불량판정제품TableAdapter
             // 
             this.출하전불량판정제품TableAdapter.ClearBeforeFill = true;
             // 
+            // 출하등록제품BindingSource
+            // 
+            this.출하등록제품BindingSource.DataMember = "출하등록제품";
+            this.출하등록제품BindingSource.DataSource = this.mES2DataSet5;
+            // 
+            // 출하등록제품TableAdapter
+            // 
+            this.출하등록제품TableAdapter.ClearBeforeFill = true;
+            // 
             // 출하후불량판정제품BindingSource
             // 
             this.출하후불량판정제품BindingSource.DataMember = "출하후불량판정제품";
-            this.출하후불량판정제품BindingSource.DataSource = this.mES2DataSet4;
+            this.출하후불량판정제품BindingSource.DataSource = this.mES2DataSet5;
             // 
             // 출하후불량판정제품TableAdapter
             // 
             this.출하후불량판정제품TableAdapter.ClearBeforeFill = true;
             // 
+            // mtb3_5
+            // 
+            this.mtb3_5.Location = new System.Drawing.Point(997, 73);
+            this.mtb3_5.Name = "mtb3_5";
+            this.mtb3_5.Size = new System.Drawing.Size(150, 23);
+            this.mtb3_5.TabIndex = 12;
+            // 
+            // 납품처
+            // 
+            this.납품처.AutoSize = true;
+            this.납품처.Location = new System.Drawing.Point(891, 73);
+            this.납품처.Name = "납품처";
+            this.납품처.Size = new System.Drawing.Size(54, 20);
+            this.납품처.TabIndex = 11;
+            this.납품처.Text = "납품처";
+            // 
+            // 제품코드DataGridViewTextBoxColumn
+            // 
+            this.제품코드DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품코드DataGridViewTextBoxColumn.DataPropertyName = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.제품코드DataGridViewTextBoxColumn.HeaderText = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.제품코드DataGridViewTextBoxColumn.Name = "제품코드DataGridViewTextBoxColumn";
+            // 
+            // 제품명DataGridViewTextBoxColumn
+            // 
+            this.제품명DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품명DataGridViewTextBoxColumn.DataPropertyName = "제품명";
+            this.제품명DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.제품명DataGridViewTextBoxColumn.HeaderText = "제품명";
+            this.제품명DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.제품명DataGridViewTextBoxColumn.Name = "제품명DataGridViewTextBoxColumn";
+            // 
+            // 수주일자DataGridViewTextBoxColumn
+            // 
+            this.수주일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.수주일자DataGridViewTextBoxColumn.DataPropertyName = "수주일자";
+            this.수주일자DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.수주일자DataGridViewTextBoxColumn.HeaderText = "수주일자";
+            this.수주일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.수주일자DataGridViewTextBoxColumn.Name = "수주일자DataGridViewTextBoxColumn";
+            // 
+            // 제조일자DataGridViewTextBoxColumn
+            // 
+            this.제조일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제조일자DataGridViewTextBoxColumn.DataPropertyName = "제조일자";
+            this.제조일자DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.제조일자DataGridViewTextBoxColumn.HeaderText = "제조일자";
+            this.제조일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.제조일자DataGridViewTextBoxColumn.Name = "제조일자DataGridViewTextBoxColumn";
+            // 
+            // 납기일자DataGridViewTextBoxColumn
+            // 
+            this.납기일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.납기일자DataGridViewTextBoxColumn.DataPropertyName = "납기일자";
+            this.납기일자DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.납기일자DataGridViewTextBoxColumn.HeaderText = "납기일자";
+            this.납기일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.납기일자DataGridViewTextBoxColumn.Name = "납기일자DataGridViewTextBoxColumn";
+            // 
+            // 등록자DataGridViewTextBoxColumn
+            // 
+            this.등록자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.등록자DataGridViewTextBoxColumn.DataPropertyName = "등록자";
+            this.등록자DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.등록자DataGridViewTextBoxColumn.HeaderText = "등록자";
+            this.등록자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.등록자DataGridViewTextBoxColumn.Name = "등록자DataGridViewTextBoxColumn";
+            // 
+            // 검사번호DataGridViewTextBoxColumn
+            // 
+            this.검사번호DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.검사번호DataGridViewTextBoxColumn.DataPropertyName = "검사번호";
+            this.검사번호DataGridViewTextBoxColumn.FillWeight = 20F;
+            this.검사번호DataGridViewTextBoxColumn.HeaderText = "검사번호";
+            this.검사번호DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.검사번호DataGridViewTextBoxColumn.Name = "검사번호DataGridViewTextBoxColumn";
+            this.검사번호DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 제품코드DataGridViewTextBoxColumn1
+            // 
+            this.제품코드DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품코드DataGridViewTextBoxColumn1.DataPropertyName = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn1.FillWeight = 20F;
+            this.제품코드DataGridViewTextBoxColumn1.HeaderText = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.제품코드DataGridViewTextBoxColumn1.Name = "제품코드DataGridViewTextBoxColumn1";
+            // 
+            // 제품명DataGridViewTextBoxColumn1
+            // 
+            this.제품명DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품명DataGridViewTextBoxColumn1.DataPropertyName = "제품명";
+            this.제품명DataGridViewTextBoxColumn1.FillWeight = 20F;
+            this.제품명DataGridViewTextBoxColumn1.HeaderText = "제품명";
+            this.제품명DataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.제품명DataGridViewTextBoxColumn1.Name = "제품명DataGridViewTextBoxColumn1";
+            // 
+            // 검사일자DataGridViewTextBoxColumn
+            // 
+            this.검사일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.검사일자DataGridViewTextBoxColumn.DataPropertyName = "검사일자";
+            this.검사일자DataGridViewTextBoxColumn.FillWeight = 20F;
+            this.검사일자DataGridViewTextBoxColumn.HeaderText = "검사일자";
+            this.검사일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.검사일자DataGridViewTextBoxColumn.Name = "검사일자DataGridViewTextBoxColumn";
+            // 
+            // 검사요청담당자DataGridViewTextBoxColumn
+            // 
+            this.검사요청담당자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.검사요청담당자DataGridViewTextBoxColumn.DataPropertyName = "검사요청담당자";
+            this.검사요청담당자DataGridViewTextBoxColumn.FillWeight = 20F;
+            this.검사요청담당자DataGridViewTextBoxColumn.HeaderText = "검사요청담당자";
+            this.검사요청담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.검사요청담당자DataGridViewTextBoxColumn.Name = "검사요청담당자DataGridViewTextBoxColumn";
+            // 
+            // 출하지시번호DataGridViewTextBoxColumn
+            // 
+            this.출하지시번호DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.출하지시번호DataGridViewTextBoxColumn.DataPropertyName = "출하지시번호";
+            this.출하지시번호DataGridViewTextBoxColumn.FillWeight = 14.3F;
+            this.출하지시번호DataGridViewTextBoxColumn.HeaderText = "출하지시번호";
+            this.출하지시번호DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.출하지시번호DataGridViewTextBoxColumn.Name = "출하지시번호DataGridViewTextBoxColumn";
+            this.출하지시번호DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 제품코드DataGridViewTextBoxColumn2
+            // 
+            this.제품코드DataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품코드DataGridViewTextBoxColumn2.DataPropertyName = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn2.FillWeight = 14.3F;
+            this.제품코드DataGridViewTextBoxColumn2.HeaderText = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.제품코드DataGridViewTextBoxColumn2.Name = "제품코드DataGridViewTextBoxColumn2";
+            // 
+            // 제품명DataGridViewTextBoxColumn2
+            // 
+            this.제품명DataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품명DataGridViewTextBoxColumn2.DataPropertyName = "제품명";
+            this.제품명DataGridViewTextBoxColumn2.FillWeight = 14.3F;
+            this.제품명DataGridViewTextBoxColumn2.HeaderText = "제품명";
+            this.제품명DataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.제품명DataGridViewTextBoxColumn2.Name = "제품명DataGridViewTextBoxColumn2";
+            // 
+            // 출하지시일자DataGridViewTextBoxColumn
+            // 
+            this.출하지시일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.출하지시일자DataGridViewTextBoxColumn.DataPropertyName = "출하지시일자";
+            this.출하지시일자DataGridViewTextBoxColumn.FillWeight = 14.3F;
+            this.출하지시일자DataGridViewTextBoxColumn.HeaderText = "출하지시일자";
+            this.출하지시일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.출하지시일자DataGridViewTextBoxColumn.Name = "출하지시일자DataGridViewTextBoxColumn";
+            // 
+            // 출하일자DataGridViewTextBoxColumn
+            // 
+            this.출하일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.출하일자DataGridViewTextBoxColumn.DataPropertyName = "출하일자";
+            this.출하일자DataGridViewTextBoxColumn.FillWeight = 14.3F;
+            this.출하일자DataGridViewTextBoxColumn.HeaderText = "출하일자";
+            this.출하일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.출하일자DataGridViewTextBoxColumn.Name = "출하일자DataGridViewTextBoxColumn";
+            // 
+            // 납품처DataGridViewTextBoxColumn
+            // 
+            this.납품처DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.납품처DataGridViewTextBoxColumn.DataPropertyName = "납품처";
+            this.납품처DataGridViewTextBoxColumn.FillWeight = 14.3F;
+            this.납품처DataGridViewTextBoxColumn.HeaderText = "납품처";
+            this.납품처DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.납품처DataGridViewTextBoxColumn.Name = "납품처DataGridViewTextBoxColumn";
+            // 
+            // 담당자DataGridViewTextBoxColumn
+            // 
+            this.담당자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.담당자DataGridViewTextBoxColumn.DataPropertyName = "담당자";
+            this.담당자DataGridViewTextBoxColumn.FillWeight = 14.3F;
+            this.담당자DataGridViewTextBoxColumn.HeaderText = "담당자";
+            this.담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.담당자DataGridViewTextBoxColumn.Name = "담당자DataGridViewTextBoxColumn";
+            // 
+            // 불량번호DataGridViewTextBoxColumn
+            // 
+            this.불량번호DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.불량번호DataGridViewTextBoxColumn.DataPropertyName = "불량번호";
+            this.불량번호DataGridViewTextBoxColumn.FillWeight = 10F;
+            this.불량번호DataGridViewTextBoxColumn.HeaderText = "불량번호";
+            this.불량번호DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.불량번호DataGridViewTextBoxColumn.Name = "불량번호DataGridViewTextBoxColumn";
+            this.불량번호DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 제품코드DataGridViewTextBoxColumn3
+            // 
+            this.제품코드DataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품코드DataGridViewTextBoxColumn3.DataPropertyName = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn3.FillWeight = 10F;
+            this.제품코드DataGridViewTextBoxColumn3.HeaderText = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.제품코드DataGridViewTextBoxColumn3.Name = "제품코드DataGridViewTextBoxColumn3";
+            // 
+            // 제품명DataGridViewTextBoxColumn3
+            // 
+            this.제품명DataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품명DataGridViewTextBoxColumn3.DataPropertyName = "제품명";
+            this.제품명DataGridViewTextBoxColumn3.FillWeight = 10F;
+            this.제품명DataGridViewTextBoxColumn3.HeaderText = "제품명";
+            this.제품명DataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.제품명DataGridViewTextBoxColumn3.Name = "제품명DataGridViewTextBoxColumn3";
+            // 
+            // 불량판정담당자DataGridViewTextBoxColumn
+            // 
+            this.불량판정담당자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.불량판정담당자DataGridViewTextBoxColumn.DataPropertyName = "불량판정담당자";
+            this.불량판정담당자DataGridViewTextBoxColumn.FillWeight = 10F;
+            this.불량판정담당자DataGridViewTextBoxColumn.HeaderText = "불량판정담당자";
+            this.불량판정담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.불량판정담당자DataGridViewTextBoxColumn.Name = "불량판정담당자DataGridViewTextBoxColumn";
+            // 
+            // 등록일자DataGridViewTextBoxColumn
+            // 
+            this.등록일자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.등록일자DataGridViewTextBoxColumn.DataPropertyName = "등록일자";
+            this.등록일자DataGridViewTextBoxColumn.FillWeight = 10F;
+            this.등록일자DataGridViewTextBoxColumn.HeaderText = "등록일자";
+            this.등록일자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.등록일자DataGridViewTextBoxColumn.Name = "등록일자DataGridViewTextBoxColumn";
+            // 
+            // 불량유형DataGridViewTextBoxColumn
+            // 
+            this.불량유형DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.불량유형DataGridViewTextBoxColumn.DataPropertyName = "불량유형";
+            this.불량유형DataGridViewTextBoxColumn.FillWeight = 10F;
+            this.불량유형DataGridViewTextBoxColumn.HeaderText = "불량유형";
+            this.불량유형DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.불량유형DataGridViewTextBoxColumn.Name = "불량유형DataGridViewTextBoxColumn";
+            // 
+            // 불량사유DataGridViewTextBoxColumn
+            // 
+            this.불량사유DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.불량사유DataGridViewTextBoxColumn.DataPropertyName = "불량사유";
+            this.불량사유DataGridViewTextBoxColumn.FillWeight = 40F;
+            this.불량사유DataGridViewTextBoxColumn.HeaderText = "불량사유";
+            this.불량사유DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.불량사유DataGridViewTextBoxColumn.Name = "불량사유DataGridViewTextBoxColumn";
+            // 
+            // 출하등록번호DataGridViewTextBoxColumn
+            // 
+            this.출하등록번호DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.출하등록번호DataGridViewTextBoxColumn.DataPropertyName = "출하등록번호";
+            this.출하등록번호DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.출하등록번호DataGridViewTextBoxColumn.HeaderText = "출하등록번호";
+            this.출하등록번호DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.출하등록번호DataGridViewTextBoxColumn.Name = "출하등록번호DataGridViewTextBoxColumn";
+            this.출하등록번호DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 제품코드DataGridViewTextBoxColumn4
+            // 
+            this.제품코드DataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품코드DataGridViewTextBoxColumn4.DataPropertyName = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn4.FillWeight = 16.6F;
+            this.제품코드DataGridViewTextBoxColumn4.HeaderText = "제품코드";
+            this.제품코드DataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.제품코드DataGridViewTextBoxColumn4.Name = "제품코드DataGridViewTextBoxColumn4";
+            // 
+            // 제품명DataGridViewTextBoxColumn4
+            // 
+            this.제품명DataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.제품명DataGridViewTextBoxColumn4.DataPropertyName = "제품명";
+            this.제품명DataGridViewTextBoxColumn4.FillWeight = 16.6F;
+            this.제품명DataGridViewTextBoxColumn4.HeaderText = "제품명";
+            this.제품명DataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.제품명DataGridViewTextBoxColumn4.Name = "제품명DataGridViewTextBoxColumn4";
+            // 
+            // 등록일자DataGridViewTextBoxColumn1
+            // 
+            this.등록일자DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.등록일자DataGridViewTextBoxColumn1.DataPropertyName = "등록일자";
+            this.등록일자DataGridViewTextBoxColumn1.FillWeight = 16.6F;
+            this.등록일자DataGridViewTextBoxColumn1.HeaderText = "등록일자";
+            this.등록일자DataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.등록일자DataGridViewTextBoxColumn1.Name = "등록일자DataGridViewTextBoxColumn1";
+            // 
+            // 출하등록담당자DataGridViewTextBoxColumn
+            // 
+            this.출하등록담당자DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.출하등록담당자DataGridViewTextBoxColumn.DataPropertyName = "출하등록담당자";
+            this.출하등록담당자DataGridViewTextBoxColumn.FillWeight = 16.6F;
+            this.출하등록담당자DataGridViewTextBoxColumn.HeaderText = "출하등록담당자";
+            this.출하등록담당자DataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.출하등록담당자DataGridViewTextBoxColumn.Name = "출하등록담당자DataGridViewTextBoxColumn";
+            // 
+            // 불량번호DataGridViewTextBoxColumn1
+            // 
+            this.불량번호DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.불량번호DataGridViewTextBoxColumn1.DataPropertyName = "불량번호";
+            this.불량번호DataGridViewTextBoxColumn1.FillWeight = 16.6F;
+            this.불량번호DataGridViewTextBoxColumn1.HeaderText = "불량번호";
+            this.불량번호DataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.불량번호DataGridViewTextBoxColumn1.Name = "불량번호DataGridViewTextBoxColumn1";
+            // 
             // 불량번호DataGridViewTextBoxColumn2
             // 
+            this.불량번호DataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.불량번호DataGridViewTextBoxColumn2.DataPropertyName = "불량번호";
+            this.불량번호DataGridViewTextBoxColumn2.FillWeight = 20F;
             this.불량번호DataGridViewTextBoxColumn2.HeaderText = "불량번호";
             this.불량번호DataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.불량번호DataGridViewTextBoxColumn2.Name = "불량번호DataGridViewTextBoxColumn2";
             this.불량번호DataGridViewTextBoxColumn2.ReadOnly = true;
-            this.불량번호DataGridViewTextBoxColumn2.Width = 125;
             // 
-            // 불량사유DataGridViewTextBoxColumn
+            // 불량사유DataGridViewTextBoxColumn1
             // 
-            this.불량사유DataGridViewTextBoxColumn.DataPropertyName = "불량사유";
-            this.불량사유DataGridViewTextBoxColumn.HeaderText = "불량사유";
-            this.불량사유DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.불량사유DataGridViewTextBoxColumn.Name = "불량사유DataGridViewTextBoxColumn";
-            this.불량사유DataGridViewTextBoxColumn.Width = 125;
+            this.불량사유DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.불량사유DataGridViewTextBoxColumn1.DataPropertyName = "불량사유";
+            this.불량사유DataGridViewTextBoxColumn1.FillWeight = 60F;
+            this.불량사유DataGridViewTextBoxColumn1.HeaderText = "불량사유";
+            this.불량사유DataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.불량사유DataGridViewTextBoxColumn1.Name = "불량사유DataGridViewTextBoxColumn1";
             // 
             // 불량발생처DataGridViewTextBoxColumn
             // 
+            this.불량발생처DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.불량발생처DataGridViewTextBoxColumn.DataPropertyName = "불량발생처";
+            this.불량발생처DataGridViewTextBoxColumn.FillWeight = 20F;
             this.불량발생처DataGridViewTextBoxColumn.HeaderText = "불량발생처";
             this.불량발생처DataGridViewTextBoxColumn.MinimumWidth = 6;
             this.불량발생처DataGridViewTextBoxColumn.Name = "불량발생처DataGridViewTextBoxColumn";
-            this.불량발생처DataGridViewTextBoxColumn.Width = 125;
             // 
             // Form1
             // 
@@ -1318,13 +1385,12 @@
             this.출하후불량등록.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mES2DataSet4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mES2DataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.생산완료제품BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.검사대상제품BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.출하대기제품BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.출하등록제품BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.출하등록제품BindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.출하전불량판정제품BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.출하등록제품BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.출하후불량판정제품BindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -1394,51 +1460,54 @@
         private MetroFramework.Controls.MetroTextBox mtb3_1;
         private MetroFramework.Controls.MetroLabel metroLabel17;
         private MetroFramework.Controls.MetroLabel metroLabel18;
-        private MES2DataSet4 mES2DataSet4;
+        private MES2DataSet5 mES2DataSet5;
         private System.Windows.Forms.BindingSource 생산완료제품BindingSource;
-        private MES2DataSet4TableAdapters.생산완료제품TableAdapter 생산완료제품TableAdapter;
+        private MES2DataSet5TableAdapters.생산완료제품TableAdapter 생산완료제품TableAdapter;
+        private System.Windows.Forms.BindingSource 검사대상제품BindingSource;
+        private MES2DataSet5TableAdapters.검사대상제품TableAdapter 검사대상제품TableAdapter;
+        private System.Windows.Forms.BindingSource 출하대기제품BindingSource;
+        private MES2DataSet5TableAdapters.출하대기제품TableAdapter 출하대기제품TableAdapter;
+        private System.Windows.Forms.BindingSource 출하전불량판정제품BindingSource;
+        private MES2DataSet5TableAdapters.출하전불량판정제품TableAdapter 출하전불량판정제품TableAdapter;
+        private System.Windows.Forms.BindingSource 출하등록제품BindingSource;
+        private MES2DataSet5TableAdapters.출하등록제품TableAdapter 출하등록제품TableAdapter;
+        private System.Windows.Forms.BindingSource 출하후불량판정제품BindingSource;
+        private MES2DataSet5TableAdapters.출하후불량판정제품TableAdapter 출하후불량판정제품TableAdapter;
+        private MetroFramework.Controls.MetroTextBox mtb3_5;
+        private MetroFramework.Controls.MetroLabel 납품처;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품코드DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품명DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 수주일자DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제조일자DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 납기일자DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 등록자DataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource 검사대상제품BindingSource;
-        private MES2DataSet4TableAdapters.검사대상제품TableAdapter 검사대상제품TableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn 검사번호DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품코드DataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품명DataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 검사일자DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 검사요청담당자DataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource 출하대기제품BindingSource;
-        private MES2DataSet4TableAdapters.출하대기제품TableAdapter 출하대기제품TableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn 출하지시번호DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품코드DataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품명DataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn 출하지시일자DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 출하일자DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 납기일자DataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 납품처DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 담당자DataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource 출하등록제품BindingSource;
-        private MES2DataSet4TableAdapters.출하등록제품TableAdapter 출하등록제품TableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 불량번호DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 제품코드DataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 제품명DataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 불량판정담당자DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 등록일자DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 불량유형DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 불량사유DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 출하등록번호DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품코드DataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn 제품명DataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn 등록일자DataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 불량번호DataGridViewTextBoxColumn1;
-        private System.Windows.Forms.BindingSource 출하등록제품BindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 출하등록번호DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 제품코드DataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 제품명DataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 등록일자DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 출하등록담당자DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 불량번호DataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource 출하전불량판정제품BindingSource;
-        private MES2DataSet4TableAdapters.출하전불량판정제품TableAdapter 출하전불량판정제품TableAdapter;
-        private System.Windows.Forms.BindingSource 출하후불량판정제품BindingSource;
-        private MES2DataSet4TableAdapters.출하후불량판정제품TableAdapter 출하후불량판정제품TableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 불량번호DataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 불량번호DataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 불량사유DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 불량사유DataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 불량발생처DataGridViewTextBoxColumn;
     }
 }
