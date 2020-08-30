@@ -160,12 +160,9 @@ namespace MES_Project
                 {
                     dataGridView1.Rows.RemoveAt(crn);
 
-                    //this.mES2DataSet.생산완료제품.Rows[crn].Delete();
-                    //this.mES2DataSet.생산완료제품.AcceptChanges();
                     BindingSource bs = (BindingSource)dataGridView1.DataSource;
                     MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
                     
-                    //this.생산완료제품TableAdapter.Update(this.mES2DataSet.생산완료제품);
                     this.생산완료제품TableAdapter.Update(ds.생산완료제품);
                     this.검사대상제품TableAdapter.Insert(pid, pname, ppdate, pmanager);
 
