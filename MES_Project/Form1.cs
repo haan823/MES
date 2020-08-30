@@ -35,6 +35,8 @@ namespace MES_Project
             불량판정등록.Visible = false;
             출하지시등록.Visible = false;
             출하후불량등록.Visible = false;
+            label1.Hide();
+            label2.Hide();
         }
 
         private void metroTile1_Click_1(object sender, EventArgs e)
@@ -51,6 +53,8 @@ namespace MES_Project
             불량판정등록.Visible = false;
             출하지시등록.Visible = false;
             출하후불량등록.Visible = false;
+            label1.Hide();
+            label2.Hide();
         }
 
         private void metroTile2_Click_1(object sender, EventArgs e)
@@ -67,6 +71,8 @@ namespace MES_Project
             불량판정등록.Visible = true;
             출하지시등록.Visible = false;
             출하후불량등록.Visible = false;
+            label1.Hide();
+            label2.Hide();
         }
 
         private void metroTile3_Click(object sender, EventArgs e)
@@ -83,6 +89,8 @@ namespace MES_Project
             불량판정등록.Visible = false;
             출하지시등록.Visible = true;
             출하후불량등록.Visible = false;
+            label1.Hide();
+            label2.Hide();
         }
 
         private void metroTile4_Click_1(object sender, EventArgs e)
@@ -101,6 +109,8 @@ namespace MES_Project
             불량판정등록.Visible = false;
             출하지시등록.Visible = false;
             출하후불량등록.Visible = false;
+            label1.Show();
+            label2.Show();
         }
 
         private void metroTile5_Click(object sender, EventArgs e)
@@ -117,6 +127,8 @@ namespace MES_Project
             불량판정등록.Visible = false;
             출하지시등록.Visible = false;
             출하후불량등록.Visible = true;
+            label1.Hide();
+            label2.Hide();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -199,11 +211,9 @@ namespace MES_Project
                 }
                 else
                 {
-                    Debug.WriteLine(crn);
-
+                    dataGridView2.Rows.RemoveAt(crn);
                     BindingSource bs = (BindingSource)dataGridView2.DataSource;
                     MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
-
 
                     this.검사대상제품TableAdapter.Update(ds.검사대상제품);
                     this.출하전불량판정제품TableAdapter.Insert(pid, pname, pmanager, ppdate, ptype, preason);
@@ -231,6 +241,11 @@ namespace MES_Project
                 }
                 else
                 {
+                    dataGridView2.Rows.RemoveAt(crn);
+                    BindingSource bs = (BindingSource)dataGridView2.DataSource;
+                    MES2DataSet5 ds = bs.DataSource as MES2DataSet5;
+
+                    this.검사대상제품TableAdapter.Update(ds.검사대상제품);
                     this.출하대기제품TableAdapter.Insert(pid, pname, ppdate, null, null, pmanager);
 
                     MessageBox.Show("출하 대기 등록 처리되었습니다.");
